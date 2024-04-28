@@ -32,7 +32,7 @@ const Gospel_messages: React.FC = () => {
           },
 
           {
-            breakpoint: 1024,
+            breakpoint: 1025,
             settings: {
               slidesToShow: 3,
               slidesToScroll: 1,

@@ -46,6 +46,14 @@ const FeatureList: React.FC = () => {
               slidesToShow: 1,
               slidesToScroll: 1,
             }
+          },
+
+          {
+            breakpoint: 1025,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+            }
           }
         ]
     };  
@@ -66,7 +74,7 @@ const FeatureList: React.FC = () => {
                       <h3 className="text-lg font-semibold text-white inline-block">{item.topic2}</h3>
                     </div>
                     <div className="bg-white rounded-2xl h-[102px] py-4 px-4 mx-2 mt-36 ">
-                       <p className="text-sm text-black">{item.description}</p>
+                       <p className="text-sm md:text-[13px] 2xl:text-sm max-[324px]:text-xs text-black">{item.description}</p>
                     </div>
                 </div>
                 </div>

@@ -33,6 +33,9 @@ export default function Footer() {
 
       <div className="bg-[#E01515] pt-6 text-white text-center h-[74px]">
          Copyright © 2022. All right reserved
+         <div className=" text-xs">
+           Developed by Chukwuebuka Osuji
+        </div>
       </div>
     </div>
   );
